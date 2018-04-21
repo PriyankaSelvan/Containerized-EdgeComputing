@@ -8,7 +8,9 @@ Containerization of a python/redis application: https://code.tutsplus.com/tutori
 Smart home application simulation credits: https://github.com/So-Cool/SHgen
 
 Application deployment commands
+```
 sudo docker run -t -i -p 8000:8080 selvasel/pyredis /bin/bash /pyredis/launch.sh
 sudo docker run -t -i -p 8001:8010 selvasel/numberserver /bin/bash /numberserver/launch.sh
 sudo docker run -t -i -p 8002:8020 selvasel/secondserver /bin/bash /secondserver/launch.sh
 python client/app.py
+```
