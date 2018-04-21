@@ -7,7 +7,7 @@ Containerization of a python/redis application: https://code.tutsplus.com/tutori
 
 Smart home application simulation credits: https://github.com/So-Cool/SHgen
 
-Put each folder in a seperate container and name it as selvasel/<folder-name>
+Put each folder in a seperate container and name it as selvasel/folder-name
 
 Application deployment commands
 ```
