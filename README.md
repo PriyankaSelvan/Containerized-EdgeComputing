@@ -7,6 +7,8 @@ Containerization of a python/redis application: https://code.tutsplus.com/tutori
 
 Smart home application simulation credits: https://github.com/So-Cool/SHgen
 
+Put each folder in a seperate container and name it as selvasel/<folder-name>
+
 Application deployment commands
 ```
 sudo docker run -t -i -p 8000:8080 selvasel/pyredis /bin/bash /pyredis/launch.sh
