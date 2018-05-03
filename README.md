@@ -21,4 +21,4 @@ python client/app.py
 Alpine images 
 
 Server address must be mentioned in respective server files and image must be rebuilt
-Run container same as earlier without /bin/bash and the shell script execution
+Run container same as earlier without /bin/bash, no -i -t and the shell script execution
