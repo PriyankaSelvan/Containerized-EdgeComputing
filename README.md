@@ -16,3 +16,9 @@ sudo docker run -t -i -p 8001:8010 selvasel/numberserver /bin/bash /numberserver
 sudo docker run -t -i -p 8002:8020 selvasel/secondserver /bin/bash /secondserver/launch.sh
 python client/app.py
 ```
+
+
+Alpine images 
+
+Server address must be mentioned in respective server files and image must be rebuilt
+Run container same as earlier without /bin/bash and the shell script execution
